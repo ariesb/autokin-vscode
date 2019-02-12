@@ -1,0 +1,32 @@
+{
+  "name": "autokin-vscode",
+  "description": "Autokin snippets for VS Code",
+  "version": "1.0.0",
+  "displayName": "Autokin VSCode Snippets",
+  "publisher": "ariesbe",
+  "homepage": "http://autokinjs.com",
+  "author": "Aries Beltran <ariesbe@icloud.com>",
+  "icon": "images/autokin.png",
+  "galleryBanner": {
+    "theme": "light"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ariesb/autokin-vscode"
+  },
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "feature",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
