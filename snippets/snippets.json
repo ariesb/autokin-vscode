@@ -3,7 +3,7 @@
 		"scope": "feature",
 		"prefix": "Given",
 		"body": [
-			"Given that a secure endpoint is up at ${1:domain}",
+			"Given that a secure endpoint is up at ${1:domain}"
 		],
 		"description": "Given that a secure endpoint is up at {domain}"
 	},
@@ -11,7 +11,7 @@
 		"scope": "feature",
 		"prefix": "gvds",
 		"body": [
-			"Given that a secure endpoint is up at ${1:domain}",
+			"Given that a secure endpoint is up at ${1:domain}"
 		],
 		"description": "Given that a secure endpoint is up at {domain}"
 	},
@@ -19,7 +19,7 @@
 		"scope": "feature",
 		"prefix": "Given",
 		"body": [
-			"Given that a endpoint is up at ${1:domain} ",
+			"Given that a endpoint is up at ${1:domain} "
 		],
 		"description": "Given that a endpoint is up at {domain}"
 	},
@@ -27,7 +27,7 @@
 		"scope": "feature",
 		"prefix": "gvd",
 		"body": [
-			"Given that a endpoint is up at ${1:domain} ",
+			"Given that a endpoint is up at ${1:domain} "
 		],
 		"description": "Given that a endpoint is up at {domain}"
 	},
@@ -35,7 +35,7 @@
 		"scope": "feature",
 		"prefix": "Given",
 		"body": [
-			"Given I set ${1:name} header to ${2:value}",
+			"Given I set ${1:name} header to ${2:value}"
 		],
 		"description": "Given I set {name} header to {value}"
 	},
@@ -43,7 +43,7 @@
 		"scope": "feature",
 		"prefix": "gvsh",
 		"body": [
-			"Given I set ${1:name} header to ${2:value}",
+			"Given I set ${1:name} header to ${2:value}"
 		],
 		"description": "Given I set {name} header to {value}"
 	},
@@ -51,7 +51,7 @@
 		"scope": "feature",
 		"prefix": "Given",
 		"body": [
-			"Given I set ${1:name} header from ${2:stored value name}",
+			"Given I set ${1:name} header from ${2:stored value name}"
 		],
 		"description": "Given I set {name} header from {stored value name}"
 	},
@@ -59,7 +59,7 @@
 		"scope": "feature",
 		"prefix": "gvfh",
 		"body": [
-			"Given I set ${1:name} header from ${2:stored value name}",
+			"Given I set ${1:name} header from ${2:stored value name}"
 		],
 		"description": "Given I set {name} header from {stored value name}"
 	},
@@ -69,7 +69,7 @@
 		"body": [
 			"Given I set headers to",
 			"    | name | value |",
-			"    | ${1:header name} | ${2:value} |",
+			"    | ${1:header name} | ${2:value} |"
 		],
 		"description": "Given I set headers to "
 	},
@@ -79,7 +79,7 @@
 		"body": [
 			"Given I set headers to",
 			"    | name | value |",
-			"    | ${1:header name} | ${2:value} |",
+			"    | ${1:header name} | ${2:value} |"
 		],
 		"description": "Given I set headers to "
 	},
@@ -89,7 +89,7 @@
 		"body": [
 			"Given I set query parameters to",
 			"    | name | value |",
-			"    | ${1:query name} | ${2:value} |",
+			"    | ${1:query name} | ${2:value} |"
 		],
 		"description": "Given I set query parameters to"
 	},
@@ -99,7 +99,7 @@
 		"body": [
 			"Given I set query parameters to",
 			"    | name | value |",
-			"    | ${1:query name} | ${2:value} |",
+			"    | ${1:query name} | ${2:value} |"
 		],
 		"description": "Given I set query parameters to"
 	},
@@ -161,7 +161,7 @@
 		],
 		"description": "Given I set the JSON body to"
 	},
-	"Given I set the cookie to {cookie value pair}" : {
+	"Given I set the cookie to {cookie value pair}": {
 		"scope": "feature",
 		"prefix": "Given",
 		"body": [
@@ -169,7 +169,7 @@
 		],
 		"description": "Given I set the cookie to {cookie value pair}"
 	},
-	"GivenSetCookie" : {
+	"GivenSetCookie": {
 		"scope": "feature",
 		"prefix": "gvcp",
 		"body": [
@@ -341,7 +341,7 @@
 		"scope": "feature",
 		"prefix": "Then",
 		"body": [
-			"Then response status code should be ${1:expected status code}",
+			"Then response status code should be ${1:expected status code}"
 		],
 		"description": "Then response status code should be {expected status code}"
 	},
@@ -349,7 +349,7 @@
 		"scope": "feature",
 		"prefix": "thc",
 		"body": [
-			"Then response status code should be ${1:expected status code}",
+			"Then response status code should be ${1:expected status code}"
 		],
 		"description": "Then response status code should be {expected status code}"
 	},
@@ -357,7 +357,7 @@
 		"scope": "feature",
 		"prefix": "Then",
 		"body": [
-			"Then response status code should not be ${1:expected status code}",
+			"Then response status code should not be ${1:expected status code}"
 		],
 		"description": "Then response status code should not be {expected status code}"
 	},
@@ -365,7 +365,7 @@
 		"scope": "feature",
 		"prefix": "thnc",
 		"body": [
-			"Then response status code should not be ${1:expected status code}",
+			"Then response status code should not be ${1:expected status code}"
 		],
 		"description": "Then response status code should not be {expected status code}"
 	},
@@ -373,7 +373,7 @@
 		"scope": "feature",
 		"prefix": "Then",
 		"body": [
-			"Then response header \"${1:name}\" should exist",
+			"Then response header \"${1:name}\" should exist"
 		],
 		"description": "Then response header {name} should exist"
 	},
@@ -381,7 +381,7 @@
 		"scope": "feature",
 		"prefix": "thhx",
 		"body": [
-			"Then response header \"${1:name}\" should exist",
+			"Then response header \"${1:name}\" should exist"
 		],
 		"description": "Then response header {name} should exist"
 	},
@@ -389,7 +389,7 @@
 		"scope": "feature",
 		"prefix": "Then",
 		"body": [
-			"Then response header \"${1:name}\" should not exist",
+			"Then response header \"${1:name}\" should not exist"
 		],
 		"description": "Then response header {name} should not exist"
 	},
@@ -397,7 +397,7 @@
 		"scope": "feature",
 		"prefix": "thhnx",
 		"body": [
-			"Then response header \"${1:name}\" should not exist",
+			"Then response header \"${1:name}\" should not exist"
 		],
 		"description": "Then response header {name} should not exist"
 	},
@@ -405,7 +405,7 @@
 		"scope": "feature",
 		"prefix": "Then",
 		"body": [
-			"Then response header \"${1:name}\" should be \"${1:expected value}\"",
+			"Then response header \"${1:name}\" should be \"${1:expected value}\""
 		],
 		"description": "Then response header {name} should be {expected value}"
 	},
@@ -413,7 +413,7 @@
 		"scope": "feature",
 		"prefix": "thhv",
 		"body": [
-			"Then response header \"${1:name}\" should be \"${1:expected value}\"",
+			"Then response header \"${1:name}\" should be \"${1:expected value}\""
 		],
 		"description": "Then response header {name} should be {expected value}"
 	},
@@ -421,7 +421,7 @@
 		"scope": "feature",
 		"prefix": "Then",
 		"body": [
-			"Then response header \"${1:name}\" should not be \"${1:expected value}\"",
+			"Then response header \"${1:name}\" should not be \"${1:expected value}\""
 		],
 		"description": "Then response header {name} should not be {expected value}"
 	},
@@ -429,7 +429,7 @@
 		"scope": "feature",
 		"prefix": "thhnv",
 		"body": [
-			"Then response header \"${1:name}\" should not be \"${1:expected value}\"",
+			"Then response header \"${1:name}\" should not be \"${1:expected value}\""
 		],
 		"description": "Then response header {name} should not be {expected value}"
 	},
@@ -437,7 +437,7 @@
 		"scope": "feature",
 		"prefix": "Then",
 		"body": [
-			"Then response body should be valid json",
+			"Then response body should be valid json"
 		],
 		"description": "Then response body should be valid json"
 	},
@@ -445,7 +445,7 @@
 		"scope": "feature",
 		"prefix": "thjbv",
 		"body": [
-			"Then response body should be valid json",
+			"Then response body should be valid json"
 		],
 		"description": "Then response body should be valid json"
 	},
@@ -479,7 +479,7 @@
 		"scope": "feature",
 		"prefix": "Then",
 		"body": [
-			"Then I expect that path \"${1:path}\" from body has value of \"${2:expected value}\"",
+			"Then I expect that path \"${1:path}\" from body has value of \"${2:expected value}\""
 		],
 		"description": "Then I expect that path {path} from body has value of {expected value}"
 	},
@@ -487,7 +487,7 @@
 		"scope": "feature",
 		"prefix": "thpv",
 		"body": [
-			"Then I expect that path \"${1:path}\" from body has value of \"${2:expected value}\"",
+			"Then I expect that path \"${1:path}\" from body has value of \"${2:expected value}\""
 		],
 		"description": "Then I expect that path {path} from body has value of {expected value}"
 	},
@@ -495,7 +495,7 @@
 		"scope": "feature",
 		"prefix": "Then",
 		"body": [
-			"Then response body should have path \"${1:path}\"",
+			"Then response body should have path \"${1:path}\""
 		],
 		"description": "Then response body should have path {path}"
 	},
@@ -503,7 +503,7 @@
 		"scope": "feature",
 		"prefix": "thbp",
 		"body": [
-			"Then response body should have path \"${1:path}\"",
+			"Then response body should have path \"${1:path}\""
 		],
 		"description": "Then response body should have path {path}"
 	},
@@ -511,7 +511,7 @@
 		"scope": "feature",
 		"prefix": "Then",
 		"body": [
-			"Then response time is not greater than ${1:response time}ms",
+			"Then response time is not greater than ${1:response time}ms"
 		],
 		"description": "Then response time is not greater than {response time}ms"
 	},
@@ -519,7 +519,7 @@
 		"scope": "feature",
 		"prefix": "thlt",
 		"body": [
-			"Then response time is not greater than ${1:response time}ms",
+			"Then response time is not greater than ${1:response time}ms"
 		],
 		"description": "Then response time is not greater than {response time}ms"
 	},
@@ -527,7 +527,7 @@
 		"scope": "feature",
 		"prefix": "Then",
 		"body": [
-			"Then response time is greater than ${1:response time}ms",
+			"Then response time is greater than ${1:response time}ms"
 		],
 		"description": "Then response time is greater than {response time}ms"
 	},
@@ -535,7 +535,7 @@
 		"scope": "feature",
 		"prefix": "thgt",
 		"body": [
-			"Then response time is greater than ${1:response time}ms",
+			"Then response time is greater than ${1:response time}ms"
 		],
 		"description": "Then response time is greater than {response time}ms"
 	},
@@ -543,7 +543,7 @@
 		"scope": "feature",
 		"prefix": "Then",
 		"body": [
-			"Then I keep the value of body path \"${1:path}\" as \"${2:storage name}\"",
+			"Then I keep the value of body path \"${1:path}\" as \"${2:storage name}\""
 		],
 		"description": "Then I keep the value of body path {path} as {storage name}"
 	},
@@ -551,7 +551,7 @@
 		"scope": "feature",
 		"prefix": "thkpv",
 		"body": [
-			"Then I keep the value of body path \"${1:path}\" as \"${2:storage name}\"",
+			"Then I keep the value of body path \"${1:path}\" as \"${2:storage name}\""
 		],
 		"description": "Then I keep the value of body path {path} as {storage name}"
 	},
@@ -559,7 +559,7 @@
 		"scope": "feature",
 		"prefix": "Then",
 		"body": [
-			"Then I keep the value of header \"${1:name}\" as \"${2:storage name}\"",
+			"Then I keep the value of header \"${1:name}\" as \"${2:storage name}\""
 		],
 		"description": "Then I keep the value of header {name} as {storage name}"
 	},
@@ -567,7 +567,7 @@
 		"scope": "feature",
 		"prefix": "thkhv",
 		"body": [
-			"Then I keep the value of header \"${1:name}\" as \"${2:storage name}\"",
+			"Then I keep the value of header \"${1:name}\" as \"${2:storage name}\""
 		],
 		"description": "Then I keep the value of header {name} as {storage name}"
 	},
@@ -575,16 +575,24 @@
 		"scope": "feature",
 		"prefix": "Then",
 		"body": [
-			"Then I expect that the stored value in \"${1:name}\" is \"${2:expected value}\"",
+			"Then I expect that the stored value in \"${1:name}\" is \"${2:expected value}\""
 		],
 		"description": "Then I expect that the stored value in {storage name} is {expected value}"
 	},
-	"ThenExpectStoredValiue": {
+	"ThenExpectStoredValue": {
 		"scope": "feature",
 		"prefix": "thxsv",
 		"body": [
-			"Then I expect that the stored value in \"${1:name}\" is \"${2:expected value}\"",
+			"Then I expect that the stored value in \"${1:name}\" is \"${2:expected value}\""
 		],
 		"description": "Then I expect that the stored value in {storage name} is {expected value}"
+	},
+	"ThenExpectSchema": {
+		"scope": "feature",
+		"prefix": "thxsch",
+		"body": [
+			"Then I expect response data schema complies to \"${1:schema path}\""
+		],
+		"description": "Then I expect response data schema complies to {schema path}"
 	}
 }

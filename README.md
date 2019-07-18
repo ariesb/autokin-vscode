@@ -56,9 +56,12 @@ Press `TAB` (`→`) key to trigger the snippet completion. For example, if I wan
 |  `thkpv→`  | Then I keep the value of body path {path} as {storage name}               |
 |  `thkhv→`  | Then I keep the value of header {name} as {storage name}                  |
 |  `thxsv→`  | Then I expect that the stored value in {storage name} is {expected value} |        
+|  `thxsch→` | Then I expect response data schema complies to {schema path}              |        
 
-Thanks to [babelsublime] for awesome documentation format :) 
+Thanks to [babelsublime] for awesome documentation format. :)  
+Language .feature format from [cucumber-tmbundle]. 
 
 
 [autokin]: http://autokinjs.com
 [babelsublime]: https://github.com/babel/babel-sublime-snippets
+[cucumber-tmbundle]: https://github.com/cucumber/cucumber-tmbundle
