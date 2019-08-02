@@ -587,6 +587,14 @@
 		],
 		"description": "Then I expect that the stored value in {storage name} is {expected value}"
 	},
+	"Then I expect response data schema complies to {schema path}": {
+		"scope": "feature",
+		"prefix": "Then",
+		"body": [
+			"Then I expect response data schema complies to \"${1:schema path}\""
+		],
+		"description": "Then I expect response data schema complies to {schema path}"
+	},
 	"ThenExpectSchema": {
 		"scope": "feature",
 		"prefix": "thxsch",
@@ -594,5 +602,53 @@
 			"Then I expect response data schema complies to \"${1:schema path}\""
 		],
 		"description": "Then I expect response data schema complies to {schema path}"
+	},
+	"Then I expect that path {path} from body has value of null": {
+		"scope": "feature",
+		"prefix": "Then",
+		"body": [
+			"Then I expect that path \"${1:path}\" from body has value of null"
+		],
+		"description": "Then I expect that path {path} from body has value of null"
+	},
+	"ThenExpectPathWithNull": {
+		"scope": "feature",
+		"prefix": "thxpn",
+		"body": [
+			"Then I expect that path \"${1:path}\" from body has value of null"
+		],
+		"description": "Then I expect that path {path} from body has value of null"
+	},
+	"Then I expect that the stored value in {storage name} is null": {
+		"scope": "feature",
+		"prefix": "Then",
+		"body": [
+			"Then I expect that the stored value in \"${1:storage name}\" is null"
+		],
+		"description": "Then I expect that the stored value in {storage name} is null"
+	},
+	"ThenExpectStoreNameWithNull": {
+		"scope": "feature",
+		"prefix": "thxsnn",
+		"body": [
+			"Then I expect that the stored value in \"${1:storage name}\" is null"
+		],
+		"description": "Then I expect that the stored value in {storage name} is null"
+	},
+	"Then response body should not have path {path}": {
+		"scope": "feature",
+		"prefix": "Then",
+		"body": [
+			"Then response body should not have path \"${1:path}\""
+		],
+		"description": "Then response body should not have path {path}"
+	},
+	"ThenExpectResponseNotHavePath": {
+		"scope": "feature",
+		"prefix": "thxbnhp",
+		"body": [
+			"Then response body should not have path \"${1:path}\""
+		],
+		"description": "Then response body should not have path {path}"
 	}
 }
