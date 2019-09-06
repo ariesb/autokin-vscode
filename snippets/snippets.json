@@ -650,5 +650,118 @@
 			"Then response body should not have path \"${1:path}\""
 		],
 		"description": "Then response body should not have path {path}"
+	},
+	"Given that an application is hosted at {url}": {
+		"scope": "feature",
+		"prefix": "gvwah",
+		"body": [
+			"Given that an application is hosted at \"${1:url}\""
+		],
+		"description": "Given that an application is hosted at {url}"
+	},
+	"Given that I set the browser window size to {width} and {height}": {
+		"scope": "feature",
+		"prefix": "gvwsz",
+		"body": [
+			"Given that I set the browser window size to ${1:width} and ${2:height}"
+		],
+		"description": "Given that I set the browser window size to {width} and {height}"
+	},
+	"Given that I mock API with": {
+		"scope": "feature",
+		"prefix": "gvwmck",
+		"body": [
+			"Given that I mock API with"
+		],
+		"description": "Given that I mock API with"
+	},
+	"Given that I mock URL with": {
+		"scope": "feature",
+		"prefix": "gvwmcku",
+		"body": [
+			"Given that I mock URL with"
+		],
+		"description": "Given that I mock URL with"
+	},
+	"Given that I reload the page": {
+		"scope": "feature",
+		"prefix": "gvwrld",
+		"body": [
+			"Given that I reload the page"
+		],
+		"description": "Given that I reload the page"
+	},
+	"When I navigate to {path}": {
+		"scope": "feature",
+		"prefix": "whwnv",
+		"body": [
+			"When I navigate to \"${1:path}\""
+		],
+		"description": "When I navigate to {path}"
+	},
+	"When I set {value} to input element with {selector} selector": {
+		"scope": "feature",
+		"prefix": "whwset",
+		"body": [
+			"When I set \"${1:value}\" to input element with \"${2:selector}\" selector"
+		],
+		"description": "When I set {value} to input element with {selector} selector"
+	},
+	"When I click on {selector}": {
+		"scope": "feature",
+		"prefix": "whwclk",
+		"body": [
+			"When I click on \"${1:selector}\""
+		],
+		"description": "When I click on {selector}"
+	},
+	"When I hover on {selector}": {
+		"scope": "feature",
+		"prefix": "whwhvr",
+		"body": [
+			"When I hover on \"${1:selector}\""
+		],
+		"description": "When I hover on {selector}"
+	},
+	"Then I take a screenshot as {path}": {
+		"scope": "feature",
+		"prefix": "thwtke",
+		"body": [
+			"Then I take a screenshot as \"${1:path}\""
+		],
+		"description": "Then I take a screenshot as {path}"
+	},
+	"Then I expect that selector {selector} has the text of {value}": {
+		"scope": "feature",
+		"prefix": "thwexpt",
+		"body": [
+			"Then I expect that selector \"${2:selector}\" has the text of \"${2:value}\""
+		],
+		"description": "Then I expect that selector {selector} has the text of {value}"
+	},
+	"Then I expect that selector {selector} has the value of {value}": {
+		"scope": "feature",
+		"prefix": "thwexpv",
+		"body": [
+			"Then I expect that selector \"${2:selector}\" has the value of \"${2:value}\""
+		],
+		"description": "Then I expect that selector {selector} has the value of {value}"
+	},
+	"Then I wait until network is idle": {
+		"scope": "feature",
+		"prefix": "thwidle",
+		"body": [
+			"Then I wait until network is idle"
+		],
+		"description": "Then I wait until network is idle"
+	},
+	"Then I wait for {seconds} seconds": {
+		"scope": "feature",
+		"prefix": "thwwait",
+		"body": [
+			"Then I wait for ${1:seconds} seconds"
+		],
+		"description": "Then I wait for {seconds} seconds"
 	}
+	
 }
