@@ -1,101 +1,67 @@
 {
-	"Given that a secure endpoint is up at {domain}": {
-		"scope": "feature",
-		"prefix": "Given",
-		"body": [
-			"Given that a secure endpoint is up at ${1:domain}"
-		],
-		"description": "Given that a secure endpoint is up at {domain}"
-	},
 	"GivenSecureDomain": {
 		"scope": "feature",
-		"prefix": "gvds",
+		"prefix": [
+			"Given",
+			"gvds"
+		],
 		"body": [
 			"Given that a secure endpoint is up at ${1:domain}"
 		],
 		"description": "Given that a secure endpoint is up at {domain}"
-	},
-	"Given that a endpoint is up at {domain}": {
-		"scope": "feature",
-		"prefix": "Given",
-		"body": [
-			"Given that a endpoint is up at ${1:domain} "
-		],
-		"description": "Given that a endpoint is up at {domain}"
 	},
 	"GivenDomain": {
 		"scope": "feature",
-		"prefix": "gvd",
+		"prefix": [
+			"Given",
+			"gvd",
+		],
 		"body": [
 			"Given that a endpoint is up at ${1:domain} "
 		],
 		"description": "Given that a endpoint is up at {domain}"
 	},
-	"Given I set {name} header to {value}": {
-		"scope": "feature",
-		"prefix": "Given",
-		"body": [
-			"Given I set ${1:name} header to ${2:value}"
-		],
-		"description": "Given I set {name} header to {value}"
-	},
 	"GivenSetHeader": {
 		"scope": "feature",
-		"prefix": "gvsh",
+		"prefix": [
+			"Given",
+			"gvsh"
+		],
 		"body": [
 			"Given I set ${1:name} header to ${2:value}"
 		],
 		"description": "Given I set {name} header to {value}"
-	},
-	"Given I set {name} header from {stored value name}": {
-		"scope": "feature",
-		"prefix": "Given",
-		"body": [
-			"Given I set ${1:name} header from ${2:stored value name}"
-		],
-		"description": "Given I set {name} header from {stored value name}"
 	},
 	"GivenFromHeader": {
 		"scope": "feature",
-		"prefix": "gvfh",
+		"prefix": [ 
+			"Given", 
+			"gvfh" 
+		],
 		"body": [
 			"Given I set ${1:name} header from ${2:stored value name}"
 		],
 		"description": "Given I set {name} header from {stored value name}"
 	},
-	"Given I set headers to": {
-		"scope": "feature",
-		"prefix": "Given",
-		"body": [
-			"Given I set headers to",
-			"    | name | value |",
-			"    | ${1:header name} | ${2:value} |"
-		],
-		"description": "Given I set headers to "
-	},
 	"GivenHeaders": {
 		"scope": "feature",
-		"prefix": "gvhs",
+		"prefix": [
+			"Given",
+			"gvhs"
+		],
 		"body": [
 			"Given I set headers to",
 			"    | name | value |",
 			"    | ${1:header name} | ${2:value} |"
 		],
 		"description": "Given I set headers to "
-	},
-	"Given I set query parameters to": {
-		"scope": "feature",
-		"prefix": "Given",
-		"body": [
-			"Given I set query parameters to",
-			"    | name | value |",
-			"    | ${1:query name} | ${2:value} |"
-		],
-		"description": "Given I set query parameters to"
 	},
 	"GivenSetQueryParameter": {
 		"scope": "feature",
-		"prefix": "gvqs",
+		"prefix": [
+			"Given",
+			"gvqs"
+		],
 		"body": [
 			"Given I set query parameters to",
 			"    | name | value |",
@@ -103,54 +69,34 @@
 		],
 		"description": "Given I set query parameters to"
 	},
-	"Given I set query parameter {name} to {value}": {
-		"scope": "feature",
-		"prefix": "Given",
-		"body": [
-			"Given I set query parameter ${1:name} to ${2:value}"
-		],
-		"description": "Given I set query parameter {name} to {value}"
-	},
 	"GivenSetParameteer": {
 		"scope": "feature",
-		"prefix": "gvsq",
+		"prefix": [
+			"Given",
+			"gvsq"
+		],
 		"body": [
 			"Given I set query parameter ${1:name} to ${2:value}"
 		],
 		"description": "Given I set query parameter {name} to {value}"
-	},
-	"Given I set query parameter {name} from {stored value name}": {
-		"scope": "feature",
-		"prefix": "Given",
-		"body": [
-			"Given I set query parameter \"${1:name}\" from \"${2:stored value name}\""
-		],
-		"description": "Given I set query parameter {name} from {stored value name}"
 	},
 	"GivenSetFromQuery": {
 		"scope": "feature",
-		"prefix": "gvfp",
+		"prefix": [
+			"Given",
+			"gvfp"
+		],
 		"body": [
 			"Given I set query parameter \"${1:name}\" from \"${2:stored value name}\""
 		],
 		"description": "Given I set query parameter {name} from {stored value name}"
 	},
-	"Given I set the JSON body to": {
-		"scope": "feature",
-		"prefix": "Given",
-		"body": [
-			"Given I set the JSON body to",
-			"\"\"\"",
-			"{",
-			"${1:json}",
-			"}",
-			"\"\"\""
-		],
-		"description": "Given I set the JSON body to"
-	},
 	"GivenJSONBody": {
 		"scope": "feature",
-		"prefix": "gvjb",
+		"prefix": [
+			"Given",
+			"gvjb"
+		],
 		"body": [
 			"Given I set the JSON body to",
 			"\"\"\"",
@@ -160,311 +106,211 @@
 			"\"\"\""
 		],
 		"description": "Given I set the JSON body to"
-	},
-	"Given I set the cookie to {cookie value pair}": {
-		"scope": "feature",
-		"prefix": "Given",
-		"body": [
-			"Given I set the cookie to ${1:name}=${2:value}"
-		],
-		"description": "Given I set the cookie to {cookie value pair}"
 	},
 	"GivenSetCookie": {
 		"scope": "feature",
-		"prefix": "gvcp",
+		"prefix": [
+			"Given",
+			"gvcp"
+		],
 		"body": [
 			"Given I set the cookie to ${1:name}=${2:value}"
 		],
 		"description": "Given I set the cookie to {cookie value pair}"
 	},
-	"Given I set the cookie {name} to {value}": {
-		"scope": "feature",
-		"prefix": "Given",
-		"body": [
-			"Given I set the cookie \"${1:name}\" to \"${2:value}\""
-		],
-		"description": "Given I set the cookie {name} to {value}"
-	},
 	"GivenCookieSet": {
 		"scope": "feature",
-		"prefix": "gvsc",
+		"prefix": [
+			"Given",
+			"gvsc"
+		],
 		"body": [
 			"Given I set the cookie \"${1:name}\" to \"${2:value}\""
 		],
 		"description": "Given I set the cookie {name} to {value}"
-	},
-	"Given I set the cookie {name} from {stored value name}": {
-		"scope": "feature",
-		"prefix": "Given",
-		"body": [
-			"Given I set the cookie \"${1:name}\" from \"${2:stored value name}\""
-		],
-		"description": "Given I set the cookie {name} from {stored value name}"
 	},
 	"GivenSetFromCookie": {
 		"scope": "feature",
-		"prefix": "gvfc",
+		"prefix": [
+			"Given",
+			"gvfc"
+		],
 		"body": [
 			"Given I set the cookie \"${1:name}\" from \"${2:stored value name}\""
 		],
 		"description": "Given I set the cookie {name} from {stored value name}"
 	},
-	"Given I have basic authentication credentials {username} and {password}": {
-		"scope": "feature",
-		"prefix": "Given",
-		"body": [
-			"Given I have basic authentication credentials ${1:username} and ${2:password}"
-		],
-		"description": "Given I have basic authentication credentials {username} and {password}"
-	},
 	"GivenBasicAuth": {
 		"scope": "feature",
-		"prefix": "gvau",
+		"prefix": [
+			"Given",
+			"gvau"
+		],
 		"body": [
 			"Given I have basic authentication credentials ${1:username} and ${2:password}"
 		],
 		"description": "Given I have basic authentication credentials {username} and {password}"
-	},
-	"Given I set the bearer token to {token}": {
-		"scope": "feature",
-		"prefix": "Given",
-		"body": [
-			"Given I set the bearer token to ${1:token}"
-		],
-		"description": "Given I set the bearer token to {token}"
 	},
 	"GivenSetBearerToken": {
 		"scope": "feature",
-		"prefix": "gvtk",
+		"prefix": [
+			"Given",
+			"gvtk"
+		],
 		"body": [
 			"Given I set the bearer token to ${1:token}"
 		],
 		"description": "Given I set the bearer token to {token}"
 	},
-	"Given I set the bearer token with {stored value name}": {
-		"scope": "feature",
-		"prefix": "Given",
-		"body": [
-			"Given I set the bearer token with \"${1:stored value name}\""
-		],
-		"description": "Given I set the bearer token with {stored value name}"
-	},
 	"GivenSetBearerFrom": {
 		"scope": "feature",
-		"prefix": "gvtkf",
+		"prefix": [
+			"Given",
+			"gvtkf"
+		],
 		"body": [
 			"Given I set the bearer token with \"${1:stored value name}\""
 		],
 		"description": "Given I set the bearer token with {stored value name}"
-	},
-	"When I GET {uri}": {
-		"scope": "feature",
-		"prefix": "When",
-		"body": [
-			"When I GET ${1:uri}"
-		],
-		"description": "When I GET {uri}"
 	},
 	"WhenGet": {
 		"scope": "feature",
-		"prefix": "whget",
+		"prefix": [
+			"When",
+			"whget"
+		],
 		"body": [
 			"When I GET ${1:uri}"
 		],
 		"description": "When I GET {uri}"
 	},
-	"When I POST to {uri}": {
-		"scope": "feature",
-		"prefix": "When",
-		"body": [
-			"When I POST to ${1:uri}"
-		],
-		"description": "When I POST to {uri}"
-	},
 	"WhenPost": {
 		"scope": "feature",
-		"prefix": "whpost",
+		"prefix": [
+			"When",
+			"whpost"
+		],
 		"body": [
 			"When I POST to ${1:uri}"
 		],
 		"description": "When I POST to {uri}"
-	},
-	"When I PUT to {uri}": {
-		"scope": "feature",
-		"prefix": "When",
-		"body": [
-			"When I PUT to ${1:uri}"
-		],
-		"description": "When I PUT to {uri}"
 	},
 	"WhenPut": {
 		"scope": "feature",
-		"prefix": "whput",
+		"prefix": [
+			"When",
+			"whput"
+		],
 		"body": [
 			"When I PUT to ${1:uri}"
 		],
 		"description": "When I PUT to {uri}"
 	},
-	"When I perform DELETE to {uri}": {
-		"scope": "feature",
-		"prefix": "When",
-		"body": [
-			"When I perform DELETE to ${1:uri}"
-		],
-		"description": "When I perform DELETE to {uri}"
-	},
 	"WhenDelete": {
 		"scope": "feature",
-		"prefix": "whdel",
+		"prefix": [
+			"When",
+			"whdel"
+		],
 		"body": [
 			"When I perform DELETE to ${1:uri}"
 		],
 		"description": "When I perform DELETE to {uri}"
-	},
-	"When I PATCH to {uri}": {
-		"scope": "feature",
-		"prefix": "When",
-		"body": [
-			"When I PATCH to ${1:uri}"
-		],
-		"description": "When I PATCH to {uri}"
 	},
 	"WhenPatch": {
 		"scope": "feature",
-		"prefix": "whpat",
+		"prefix": [
+			"When",
+			"whpat"
+		],
 		"body": [
 			"When I PATCH to ${1:uri}"
 		],
 		"description": "When I PATCH to {uri}"
 	},
-	"Then response status code should be {expected status code}": {
-		"scope": "feature",
-		"prefix": "Then",
-		"body": [
-			"Then response status code should be ${1:expected status code}"
-		],
-		"description": "Then response status code should be {expected status code}"
-	},
 	"ThenStatusCode": {
 		"scope": "feature",
-		"prefix": "thc",
+		"prefix": [
+			"Then",
+			"thc"
+		],
 		"body": [
 			"Then response status code should be ${1:expected status code}"
 		],
 		"description": "Then response status code should be {expected status code}"
-	},
-	"Then response status code should not be {expected status code}": {
-		"scope": "feature",
-		"prefix": "Then",
-		"body": [
-			"Then response status code should not be ${1:expected status code}"
-		],
-		"description": "Then response status code should not be {expected status code}"
 	},
 	"ThenNotStatusCode": {
 		"scope": "feature",
-		"prefix": "thnc",
+		"prefix": [
+			"Then",
+			"thnc"
+		],
 		"body": [
 			"Then response status code should not be ${1:expected status code}"
 		],
 		"description": "Then response status code should not be {expected status code}"
 	},
-	"Then response header {name} should exist": {
-		"scope": "feature",
-		"prefix": "Then",
-		"body": [
-			"Then response header \"${1:name}\" should exist"
-		],
-		"description": "Then response header {name} should exist"
-	},
 	"ThenHeaderExists": {
 		"scope": "feature",
-		"prefix": "thhx",
+		"prefix": [
+			"Then",
+			"thhx"
+		],
 		"body": [
 			"Then response header \"${1:name}\" should exist"
 		],
 		"description": "Then response header {name} should exist"
-	},
-	"Then response header {name} should not exist": {
-		"scope": "feature",
-		"prefix": "Then",
-		"body": [
-			"Then response header \"${1:name}\" should not exist"
-		],
-		"description": "Then response header {name} should not exist"
 	},
 	"ThenHeaderNotExist": {
 		"scope": "feature",
-		"prefix": "thhnx",
+		"prefix": [
+			"Then",
+			"thhnx"
+		],
 		"body": [
 			"Then response header \"${1:name}\" should not exist"
 		],
 		"description": "Then response header {name} should not exist"
 	},
-	"Then response header {name} should be {expected value}": {
-		"scope": "feature",
-		"prefix": "Then",
-		"body": [
-			"Then response header \"${1:name}\" should be \"${1:expected value}\""
-		],
-		"description": "Then response header {name} should be {expected value}"
-	},
 	"ThenHeaderExpectedValue": {
 		"scope": "feature",
-		"prefix": "thhv",
+		"prefix": [
+			"Then",
+			"thhv"
+		],
 		"body": [
 			"Then response header \"${1:name}\" should be \"${1:expected value}\""
 		],
 		"description": "Then response header {name} should be {expected value}"
-	},
-	"Then response header {name} should not be {expected value}": {
-		"scope": "feature",
-		"prefix": "Then",
-		"body": [
-			"Then response header \"${1:name}\" should not be \"${1:expected value}\""
-		],
-		"description": "Then response header {name} should not be {expected value}"
 	},
 	"ThenHeaderNotExpected": {
 		"scope": "feature",
-		"prefix": "thhnv",
+		"prefix": [
+			"Then",
+			"thhnv"
+		],
 		"body": [
 			"Then response header \"${1:name}\" should not be \"${1:expected value}\""
 		],
 		"description": "Then response header {name} should not be {expected value}"
 	},
-	"Then response body should be valid json": {
-		"scope": "feature",
-		"prefix": "Then",
-		"body": [
-			"Then response body should be valid json"
-		],
-		"description": "Then response body should be valid json"
-	},
 	"ThenBodyValidJson": {
 		"scope": "feature",
-		"prefix": "thjbv",
+		"prefix": [
+			"Then",
+			"thjbv"
+		],
 		"body": [
 			"Then response body should be valid json"
 		],
 		"description": "Then response body should be valid json"
-	},
-	"Then response body should be json data of": {
-		"scope": "feature",
-		"prefix": "Then",
-		"body": [
-			"Then response body should be json data of",
-			"\"\"\"",
-			"{",
-			"${1:json}",
-			"}",
-			"\"\"\""
-		],
-		"description": "Then response body should be json data of"
 	},
 	"ThenBodyJsonComparison": {
 		"scope": "feature",
-		"prefix": "thjbc",
+		"prefix": [
+			"Then",
+			"thjbc"
+		],
 		"body": [
 			"Then response body should be json data of",
 			"\"\"\"",
@@ -475,177 +321,122 @@
 		],
 		"description": "Then response body should be json data of"
 	},
-	"Then I expect that path {path} from body has value of {expected value}": {
-		"scope": "feature",
-		"prefix": "Then",
-		"body": [
-			"Then I expect that path \"${1:path}\" from body has value of \"${2:expected value}\""
-		],
-		"description": "Then I expect that path {path} from body has value of {expected value}"
-	},
 	"ThenExpectPathValue": {
 		"scope": "feature",
-		"prefix": "thpv",
+		"prefix": [
+			"Then",
+			"thpv"
+		],
 		"body": [
 			"Then I expect that path \"${1:path}\" from body has value of \"${2:expected value}\""
 		],
 		"description": "Then I expect that path {path} from body has value of {expected value}"
-	},
-	"Then response body should have path {path}": {
-		"scope": "feature",
-		"prefix": "Then",
-		"body": [
-			"Then response body should have path \"${1:path}\""
-		],
-		"description": "Then response body should have path {path}"
 	},
 	"ThenBodyPath": {
 		"scope": "feature",
-		"prefix": "thbp",
+		"prefix": [
+			"Then",
+			"thbp"
+		],
 		"body": [
 			"Then response body should have path \"${1:path}\""
 		],
 		"description": "Then response body should have path {path}"
 	},
-	"Then response time is not greater than {response time}ms": {
-		"scope": "feature",
-		"prefix": "Then",
-		"body": [
-			"Then response time is not greater than ${1:response time}ms"
-		],
-		"description": "Then response time is not greater than {response time}ms"
-	},
 	"ThenLessResponseTime": {
 		"scope": "feature",
-		"prefix": "thlt",
+		"prefix": [
+			"Then",
+			"thlt"
+		],
 		"body": [
 			"Then response time is not greater than ${1:response time}ms"
 		],
 		"description": "Then response time is not greater than {response time}ms"
-	},
-	"Then response time is greater than {response time}ms": {
-		"scope": "feature",
-		"prefix": "Then",
-		"body": [
-			"Then response time is greater than ${1:response time}ms"
-		],
-		"description": "Then response time is greater than {response time}ms"
 	},
 	"ThenGreaterResponseTime": {
 		"scope": "feature",
-		"prefix": "thgt",
+		"prefix": [
+			"Then",
+			"thgt"
+		],
 		"body": [
 			"Then response time is greater than ${1:response time}ms"
 		],
 		"description": "Then response time is greater than {response time}ms"
 	},
-	"Then I keep the value of body path {path} as {storage name}": {
-		"scope": "feature",
-		"prefix": "Then",
-		"body": [
-			"Then I keep the value of body path \"${1:path}\" as \"${2:storage name}\""
-		],
-		"description": "Then I keep the value of body path {path} as {storage name}"
-	},
 	"ThenKeepPathValue": {
 		"scope": "feature",
-		"prefix": "thkpv",
+		"prefix": [
+			"Then",
+			"thkpv"
+		],
 		"body": [
 			"Then I keep the value of body path \"${1:path}\" as \"${2:storage name}\""
 		],
 		"description": "Then I keep the value of body path {path} as {storage name}"
-	},
-	"Then I keep the value of header {name} as {storage name}": {
-		"scope": "feature",
-		"prefix": "Then",
-		"body": [
-			"Then I keep the value of header \"${1:name}\" as \"${2:storage name}\""
-		],
-		"description": "Then I keep the value of header {name} as {storage name}"
 	},
 	"ThenKeepHeaderValue": {
 		"scope": "feature",
-		"prefix": "thkhv",
+		"prefix": [
+			"Then",
+			"thkhv"
+		],
 		"body": [
 			"Then I keep the value of header \"${1:name}\" as \"${2:storage name}\""
 		],
 		"description": "Then I keep the value of header {name} as {storage name}"
 	},
-	"Then I expect that the stored value in {storage name} is {expected value}": {
-		"scope": "feature",
-		"prefix": "Then",
-		"body": [
-			"Then I expect that the stored value in \"${1:name}\" is \"${2:expected value}\""
-		],
-		"description": "Then I expect that the stored value in {storage name} is {expected value}"
-	},
 	"ThenExpectStoredValue": {
 		"scope": "feature",
-		"prefix": "thxsv",
+		"prefix": [
+			"Then",
+			"thxsv"
+		],
 		"body": [
 			"Then I expect that the stored value in \"${1:name}\" is \"${2:expected value}\""
 		],
 		"description": "Then I expect that the stored value in {storage name} is {expected value}"
-	},
-	"Then I expect response data schema complies to {schema path}": {
-		"scope": "feature",
-		"prefix": "Then",
-		"body": [
-			"Then I expect response data schema complies to \"${1:schema path}\""
-		],
-		"description": "Then I expect response data schema complies to {schema path}"
 	},
 	"ThenExpectSchema": {
 		"scope": "feature",
-		"prefix": "thxsch",
+		"prefix": [
+			"Then",
+			"thxsch"
+		],
 		"body": [
 			"Then I expect response data schema complies to \"${1:schema path}\""
 		],
 		"description": "Then I expect response data schema complies to {schema path}"
 	},
-	"Then I expect that path {path} from body has value of null": {
-		"scope": "feature",
-		"prefix": "Then",
-		"body": [
-			"Then I expect that path \"${1:path}\" from body has value of null"
-		],
-		"description": "Then I expect that path {path} from body has value of null"
-	},
 	"ThenExpectPathWithNull": {
 		"scope": "feature",
-		"prefix": "thxpn",
-		"body": [
-			"Then I expect that path \"${1:path}\" from body has value of null"
+		"prefix": [
+			"Then",
+			"thxpn"
 		],
-		"description": "Then I expect that path {path} from body has value of null"
-	},
-	"Then I expect that the stored value in {storage name} is null": {
-		"scope": "feature",
-		"prefix": "Then",
 		"body": [
-			"Then I expect that the stored value in \"${1:storage name}\" is null"
+			"Then I expect that path \"${1:path}\" from body has null value"
 		],
-		"description": "Then I expect that the stored value in {storage name} is null"
+		"description": "Then I expect that path {path} from body has null value"
 	},
 	"ThenExpectStoreNameWithNull": {
 		"scope": "feature",
-		"prefix": "thxsnn",
+		"prefix": [
+			"Then",
+			"thxsnn"
+		],
 		"body": [
 			"Then I expect that the stored value in \"${1:storage name}\" is null"
 		],
 		"description": "Then I expect that the stored value in {storage name} is null"
 	},
-	"Then response body should not have path {path}": {
-		"scope": "feature",
-		"prefix": "Then",
-		"body": [
-			"Then response body should not have path \"${1:path}\""
-		],
-		"description": "Then response body should not have path {path}"
-	},
 	"ThenExpectResponseNotHavePath": {
 		"scope": "feature",
-		"prefix": "thxbnhp",
+		"prefix": [
+			"Then",
+			"thxbnhp"
+		],
 		"body": [
 			"Then response body should not have path \"${1:path}\""
 		],
@@ -653,7 +444,10 @@
 	},
 	"Given that an application is hosted at {url}": {
 		"scope": "feature",
-		"prefix": "gvwah",
+		"prefix": [
+			"gvwah",
+			"Given"
+		],
 		"body": [
 			"Given that an application is hosted at \"${1:url}\""
 		],
@@ -661,7 +455,10 @@
 	},
 	"Given that I set the browser window size to {width} and {height}": {
 		"scope": "feature",
-		"prefix": "gvwsz",
+		"prefix": [
+			"Given",
+			"gvwsz"
+		],
 		"body": [
 			"Given that I set the browser window size to ${1:width} and ${2:height}"
 		],
@@ -669,23 +466,60 @@
 	},
 	"Given that I mock API with": {
 		"scope": "feature",
-		"prefix": "gvwmck",
+		"prefix": [
+			"Given",
+			"gvwmck"
+		],
 		"body": [
-			"Given that I mock API with"
+			"Given that I mock API with",
+			"\t\"\"\"",
+			"\t{",
+			"\t\t\"url\": \"${1:https://}\",",
+			"\t\t\"method\": \"${2|GET,POST,PUT,DELETE,PATCH|}\",",
+			"\t\t\"status\": ${3:200},",
+			"\t\t\"body\": {},",
+			"\t\t\"image\": {",
+			"\t\t\t\"type\": \"jpg\",",
+			"\t\t\t\"width\": 100,",
+			"\t\t\t\"height\": 100,",
+			"\t\t\t\"background\": \"#ddd\"",
+			"\t\t}",
+			"\t}",
+			"\t\"\"\""
 		],
 		"description": "Given that I mock API with"
 	},
 	"Given that I mock URL with": {
 		"scope": "feature",
-		"prefix": "gvwmcku",
+		"prefix": [
+			"Given",
+			"gvwmcku"
+		],
 		"body": [
-			"Given that I mock URL with"
+			"Given that I mock URL with",
+			"\t\"\"\"",
+			"\t{",
+			"\t\t\"url\": \"${1:https://}\",",
+			"\t\t\"method\": \"${2|GET,POST,PUT,DELETE,PATCH|}\",",
+			"\t\t\"status\": ${3:200},",
+			"\t\t\"body\": {},",
+			"\t\t\"image\": {",
+			"\t\t\t\"type\": \"jpg\",",
+			"\t\t\t\"width\": 100,",
+			"\t\t\t\"height\": 100,",
+			"\t\t\t\"background\": \"#ddd\"",
+			"\t\t}",
+			"\t}",
+			"\t\"\"\""
 		],
 		"description": "Given that I mock URL with"
 	},
 	"Given that I reload the page": {
 		"scope": "feature",
-		"prefix": "gvwrld",
+		"prefix": [
+			"Given",
+			"gvwrld"
+		],
 		"body": [
 			"Given that I reload the page"
 		],
@@ -693,7 +527,10 @@
 	},
 	"When I navigate to {path}": {
 		"scope": "feature",
-		"prefix": "whwnv",
+		"prefix": [
+			"When",
+			"whwnv"
+		],
 		"body": [
 			"When I navigate to \"${1:path}\""
 		],
@@ -701,7 +538,10 @@
 	},
 	"When I set {value} to input element with {selector} selector": {
 		"scope": "feature",
-		"prefix": "whwset",
+		"prefix": [
+			"When",
+			"whwset"
+		],
 		"body": [
 			"When I set \"${1:value}\" to input element with \"${2:selector}\" selector"
 		],
@@ -709,7 +549,10 @@
 	},
 	"When I click on {selector}": {
 		"scope": "feature",
-		"prefix": "whwclk",
+		"prefix": [
+			"When",
+			"whwclk"
+		],
 		"body": [
 			"When I click on \"${1:selector}\""
 		],
@@ -717,7 +560,10 @@
 	},
 	"When I hover on {selector}": {
 		"scope": "feature",
-		"prefix": "whwhvr",
+		"prefix": [
+			"When",
+			"whwhvr"
+		],
 		"body": [
 			"When I hover on \"${1:selector}\""
 		],
@@ -725,7 +571,10 @@
 	},
 	"Then I take a screenshot as {path}": {
 		"scope": "feature",
-		"prefix": "thwtke",
+		"prefix": [
+			"Then",
+			"thwtke"
+		],
 		"body": [
 			"Then I take a screenshot as \"${1:path}\""
 		],
@@ -733,7 +582,10 @@
 	},
 	"Then I expect that selector {selector} has the text of {value}": {
 		"scope": "feature",
-		"prefix": "thwexpt",
+		"prefix": [
+			"Then",
+			"thwexpt"
+		],
 		"body": [
 			"Then I expect that selector \"${2:selector}\" has the text of \"${2:value}\""
 		],
@@ -741,7 +593,10 @@
 	},
 	"Then I expect that selector {selector} has the value of {value}": {
 		"scope": "feature",
-		"prefix": "thwexpv",
+		"prefix": [
+			"Then",
+			"thwexpv"
+		],
 		"body": [
 			"Then I expect that selector \"${2:selector}\" has the value of \"${2:value}\""
 		],
@@ -749,7 +604,10 @@
 	},
 	"Then I wait until network is idle": {
 		"scope": "feature",
-		"prefix": "thwidle",
+		"prefix": [
+			"Then",
+			"thwidle"
+		],
 		"body": [
 			"Then I wait until network is idle"
 		],
@@ -757,11 +615,13 @@
 	},
 	"Then I wait for {seconds} seconds": {
 		"scope": "feature",
-		"prefix": "thwwait",
+		"prefix": [
+			"Then",
+			"thwwait"
+		],
 		"body": [
 			"Then I wait for ${1:seconds} seconds"
 		],
 		"description": "Then I wait for {seconds} seconds"
 	}
-	
 }
